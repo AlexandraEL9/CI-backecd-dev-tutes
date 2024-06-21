@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------------------------   THE FLASK FRAMEWORK
+--------------------------------------------INTRODUCTION
+ learn how to use Python for the web.
+using a Python web framework called Flask.
+
+what a framework is and how it differs from a regular installable package.
+
+-when you install a package, it plugs into the code that you've already written.
+You can use as much or as little of that package's functionality as you need.
+
+- A framework, however, inverts that control.
+In a framework, most of the code is already written, and you have to plug your code into it.
+-provide the framework, the structure, and allow us to create powerful web applications quickly, but still customized to our individual needs.
+
+The Flask framework is a web-based framework using Python
+
+one of the most popular and widely supported frameworks within the Python community.
+ is what's known as a micro-framework.
+It allows us to get up and running building websites with minimal Python code.
+We often say with micro-frameworks however, that batteries aren't included, which means that we don't get a lot of features out of the box, like we would with a larger framework such as Django for instance.
+Flask doesn't come with a default database engine, but the appeal of it, is its simplicity.
+There are also many extensions we could install that provide the functionality of the larger frameworks.
+
+going to use Flask throughout this lesson to run a Python server-side project.
+We will serve HTML files from our server, and we'll use the Jinja templating language to write logic inside of our HTML templates, which allows us to use Python for-loops, if-statements, and also inheritance.
+We'll also learn how to submit forms, which will allow us to take data from the client and display it on the server.
+
+The learning outcomes for this lesson include:
+Creating and running a Flask application.
+Serving HTML, CSS, and JavaScript files from the backend.
+How to make our code reusable by using template logic.
+How to post data from HTML forms.
+And how to deploy our project using a platform called Heroku so that it's served externally for all the world to see.
+
+--------------------------------------------------------GETTING STARTED
+----------------------------------------------Hello Flask
