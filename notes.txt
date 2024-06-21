@@ -1,0 +1,147 @@
+------------------------------------------------------------------------------------ BACKEND DEVELOPMENT
+----------------------------------------------------WORKING WITH DATA
+--------------------------------------What is data?
+-stored information
+-Structured pieces of information that are collected, stored and modified
+-using it to answer questions, about your business, your processes, etc.
+
+Quantity, value, historical dat, popularity, growth   etc
+
+--------------------------------------How is data stored?
+-a data stored
+-acts as a repository to hold an organization's data
+-After filling it with data a data store becomes an archive that can then be searched.
+
+data store- a repository for long-term storage to hold our organization's data such as a database
+
+searchability- after filling it with data our data store becomes an archive that can then be searched and queried to find data
+
+patterns-  equips decision makers with the power to identify trends and unearth hidden patterns that are important to our business this might 
+        include things like what are the favorite products for each demographic or which groups of products sell well together
+
+
+--------------------------------------The need for databases
+-A Database Management System (DBMS).
+-A DBMS manages all access to the data providing security, reliability, ease of administration, and performance.
+-Use a DBMS when working with data that requires rapid retrieval and modification.
+
+This kind of software that manages a data store is known as a "database management system",
+or simply just DBMS. By virtue of being managed by such software,
+the data store itself is then known as a "database". A DBMS manages all access to the data providing
+security, reliability, ease of administration, and much better performance than file-based data stores allow.
+
+The DBMS is a server program. "Server", in this context, means that this
+is a program that runs continually, and provides a service by processing requests from people
+and applications that want to use its services.
+
+hose people and applications are then known
+as the "server's clients". 
+
+Their requests are sometimes known as "queries",
+though usually, queries only refer to read requests.
+
+The computer that holds the DBMS is often referred to as a "database server".
+
+The clients usually connect to the database server from other computers over the network.
+
+
+--------------------------------------Reltional vs non-relational data
+-Relational and Non-Relational Databases.
+-Relational data stored in tables, or non-relational data usually stored in JSON or XML format.
+-Use relational databases for highly-structured and non-nested formats. Use non-relational databases for grouping collections of similar formatted data.
+
+--Relational Databases   (most common)
+
+Relational databases are also widely known as "SQL", often pronounced "sequel
+SQL stands for "Structured Query Language", which sends commands to relational databases,
+relational
+databases consist of various tables that hold records.
+
+Tables in a relational database should have a well-defined structure known as a schema.
+This schema is metadata that defines what fields each record is supposed to have, so
+that all records in each table conform to the same structure.
+
+ relational databases allow us to define these connections between records across our tables.
+It's one of the biggest advantages of using relational databases,
+changes can be made once and updates all tables
+
+
+-- Non-relational databases  noSQL
+
+many different varieties.
+examples of non-relational databases include document-oriented databases, graph stores,
+time-series databases, key-value stores, geospatial databases, and wide-column databases.
+
+ emerged from structured data formats
+such as JSON, XML, and BSON.
+
+there is effectively no defined data schema, and can often contain records
+belonging to more than one entity.
+
+--------------------------------------Modeling Database
+-designing a database
+-The steps required to determine the structure of a database.
+-create a data model.
+
+Sample ERD tools:
+
+erdplus.com
+edrawmax.com
+smartdraw.com
+creately.com
+
+The main part in the design of a database is the creation of what is known as a data model.
+usually consists of a lot of brainstorming, and culminates in a graphical representation
+of our entities and records that we can then use to create our database schema.
+
+A data model for your application will need to include, or model, all of the entities
+that your application intends to use, and any relationships between them where applicable.
+
+There are several ways to create such a model, and the best-known one is an Entity-Relationship Diagram, or ERD.
+
+--The ERD
+The Entity-Relationship model is a specific structured way of data modeling for relational databases.
+
+Split work of design into phases
+
+-Conceptual: the highest level phase where we map out the main entities, relationships,
+             and attributes without a regard to storing them in the database yet.
+
+-Logical: in this phase, we decide which entities and relationships will actually be stored
+          in a relational database, and associate each with a table, containing attributes as columns.
+
+- Physical: this is the lowest level phase in which we decide how exactly
+            each of those tables should be stored in a computer.
+            The Physical design phase relies on familiarity with the specific database management system we choose to use.
+
+--------------------------------------Structured Query Language
+-SQL is a programming language.
+- allows the communication and the provision of instructions to a relational database.
+- Use SQL to create, access and modify a database, it's tables, records, and fields.
+
+SQL stands for "Structured Query Language", and is used specifically
+for relational databases. 
+
+SQL is actually a Domain-Specific Language, or DSL.-  is any language which is used in a specific
+circumstance, such as HTML or SQL
+
+JavaScript and Python would not be classed as Domain-Specific Languages, as these can be used elsewhere for multiple purposes, not
+one specific thing like HTML for web browsers, or SQL for data manipulation.
+
+ SQL syntax is standardized globally, however, when used with a DBMS for example, the syntax
+can vary drastically.
+
+When working with data, we use an approach called CRUD.
+CRUD stands for Create, Read, Update, and Delete.
+-Adding new data to our database, this is the C in CRUD, for creating new records.
+-Reading data, the R in CRUD, is simply just retrieving records from our database.
+-If we needed to edit a single record, or multiple records, the U in CRUD for updating is used.
+- records that are no longer needed can be deleted from the database, and this is the D in CRUD.
+
+
+
+
+
+
+
+
